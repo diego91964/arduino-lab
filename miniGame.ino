@@ -151,7 +151,7 @@ int tempo[] = {
 LiquidCrystal lcd(20, 21, 14, 15, 16, 17);
 
 byte nave[8] = { 0b11111,
-0b01110,
+0b01110, //desenho da nave
 0b00100,
 0b00000,
 0b00000,
@@ -160,7 +160,7 @@ byte nave[8] = { 0b11111,
 0b00000};
 
 byte character[8] = { 0b01110,
-0b11111,
+0b11111, //desenho do personagem
 0b01010,
 0b01110,
 0b00100,
@@ -169,7 +169,7 @@ byte character[8] = { 0b01110,
 0b01010};
 
 byte death[8] = { 0b00000, // vetor de bytes correspondentes
-0b11111,  // ao desenho do coração
+0b11111,  // ao desenho da caveira
 0b11111,
 0b10101,
 0b01110,
@@ -179,7 +179,7 @@ byte death[8] = { 0b00000, // vetor de bytes correspondentes
 };
 
 byte cls[8] = { 0b00000, // vetor de bytes correspondentes
-0b00000,  // ao desenho do coração
+0b00000,  // a tela limpa
 0b00000,
 0b00000,
 0b00000,
